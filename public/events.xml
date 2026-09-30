@@ -3,20 +3,21 @@
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
 <?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
- <track type="1" name="early">
+ <track type="1" name="birth">
   <event>
-    <title>Julius Caesar invades Britain</title>
+    <title>Owen was born.</title>
     <date type="start">
-      <year>0080</year>
-      <era>BC</era>
+      <year>2008</year>
+      <era>AD</era>
     </date>
     <date type="end">
-      <year>0054</year>
-      <era>BC</era>
+      <year>2008</year>
+      <month>07</month>
+      <era>AD</era>
     </date>
-    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
-    <lat>51.1789</lat>
-    <lon>1.1713</lon>
+    <description>Owen was born.</description>
+    <lat>42.13369</lat>
+    <lon>-80.08715</lon>
   </event>
 
   <event>
